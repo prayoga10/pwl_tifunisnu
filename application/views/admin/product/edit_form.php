@@ -40,7 +40,7 @@
 							<input type="hidden" name="id" value="<?php echo $product->product_id?>" />
 
 							<div class="form-group">
-								<label for="name">Name*</label>
+								<label for="name">Nama*</label>
 								<input class="form-control <?php echo form_error('name') ? 'is-invalid':'' ?>"
 								 type="text" name="name" placeholder="Product name" value="<?php echo $product->name ?>" />
 								<div class="invalid-feedback">
@@ -49,7 +49,7 @@
 							</div>
 
 							<div class="form-group">
-								<label for="price">Price</label>
+								<label for="price">Harga</label>
 								<input class="form-control <?php echo form_error('price') ? 'is-invalid':'' ?>"
 								 type="number" name="price" min="0" placeholder="Product price" value="<?php echo $product->price ?>" />
 								<div class="invalid-feedback">
@@ -59,7 +59,7 @@
 
 
 							<div class="form-group">
-								<label for="name">Photo</label>
+								<label for="name">Foto</label>
 								<input class="form-control-file <?php echo form_error('image') ? 'is-invalid':'' ?>"
 								 type="file" name="image" />
 								<input type="hidden" name="old_image" value="<?php echo $product->image ?>" />
@@ -69,7 +69,7 @@
 							</div>
 
 							<div class="form-group">
-								<label for="name">Description*</label>
+								<label for="name">Keterangan*</label>
 								<textarea class="form-control <?php echo form_error('description') ? 'is-invalid':'' ?>"
 								 name="description" placeholder="Product description..."><?php echo $product->description ?></textarea>
 								<div class="invalid-feedback">
@@ -77,7 +77,7 @@
 								</div>
 							</div>
 
-							<input class="btn btn-success" type="submit" name="btn" value="Save" />
+							<input class="btn btn-success" type="submit" name="btn" value="Simpan" />
 						</form>
 
 					</div>
